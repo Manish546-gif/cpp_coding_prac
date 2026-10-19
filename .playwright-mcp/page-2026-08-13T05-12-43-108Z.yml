@@ -1,0 +1,82 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]: neuralnets
+    - paragraph [ref=e67]: cs student & ml researcher
+    - navigation "primary" [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - link "about" [ref=e72] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=e79]:
+          - link "experience" [ref=e80] [cursor=pointer]:
+            - /url: "#experience"
+        - listitem [ref=e87]:
+          - link "projects" [ref=e88] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e95]:
+          - link "papers" [ref=e96] [cursor=pointer]:
+            - /url: "#papers"
+        - listitem [ref=e103]:
+          - link "blogs" [ref=e104] [cursor=pointer]:
+            - /url: "#blogs"
+        - listitem [ref=e111]:
+          - link "notes" [ref=e112] [cursor=pointer]:
+            - /url: "#notes"
+    - generic [ref=e119]:
+      - generic [ref=e120]: dark mode
+      - switch "toggle dark mode" [ref=e121] [cursor=pointer]
+    - generic [ref=e125]:
+      - link "github" [ref=e126] [cursor=pointer]:
+        - /url: "#"
+      - link "x / twitter" [ref=e129] [cursor=pointer]:
+        - /url: "#"
+      - link "email" [ref=e132] [cursor=pointer]:
+        - /url: mailto:hello@neuralnets.dev
+    - paragraph [ref=e135]: © 2025 neuralnets
+  - main [ref=e136]:
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - heading "about me" [level=2] [ref=e140]
+        - generic [ref=e145]:
+          - paragraph [ref=e146]: hi, i'm a cs student & ml researcher stitching together language models, one attention head at a time. these days you'll find me training LLMs, unpicking post-training pipelines, and translating the world into vectors.
+          - paragraph [ref=e147]: when the GPUs cool down, i teach, mentor, and write down everything i've unpicked — mostly for future me.
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - generic [ref=e150]: nlp
+          - listitem [ref=e153]:
+            - generic [ref=e154]: llm post-training
+          - listitem [ref=e157]:
+            - generic [ref=e158]: machine translation
+          - listitem [ref=e161]:
+            - generic [ref=e162]: teaching
+      - generic [ref=e165]:
+        - heading "random blogs" [level=2] [ref=e167]
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: misc musings on ml research, grad school, and life as a student who talks to models for a living.
+          - paragraph [ref=e174]: long-form thoughts, shorter takes, and the occasional bug report that reads like poetry.
+        - figure "first post is on the hoop — cross-stitched with extra care." [ref=e175]
+      - generic [ref=e183]:
+        - heading "experience" [level=2] [ref=e185]
+        - generic [ref=e190]:
+          - article [ref=e191]:
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - heading "sde intern" [level=3] [ref=e195]
+                - generic [ref=e196]: cisco
+                - generic [ref=e197]: live · 3 months, 12 days, 10 hours, 42 mins, 42 secs
+              - generic [ref=e200]: may 2026 – present
+          - article [ref=e204]:
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - heading "intern" [level=3] [ref=e208]
+                - generic [ref=e209]: sidhbant
+              - generic [ref=e210]: jan 2025 – apr 2026
+      - generic [ref=e214]:
+        - heading "projects" [level=2] [ref=e216]
+        - figure "machine-translation engines, retrieval pipelines & odd side quests — patterns are on the hoop." [ref=e221]
+      - generic [ref=e227]:
+        - heading "papers" [level=2] [ref=e229]
+        - figure "a couple of preprints, unpicked and being re-stitched for submission." [ref=e234]
+      - generic [ref=e242]:
+        - heading "notes" [level=2] [ref=e244]
+        - figure "scattered class notes, cheatsheets & tiny scripts — a drawer of loose threads." [ref=e249]

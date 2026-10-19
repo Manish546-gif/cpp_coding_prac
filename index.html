@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders</title>
+</head>
+
+<body>
+
+<h1>Orders</h1>
+
+<div id="data"></div>
+
+<script>
+
+let orders = [];
+
+fetch("orders.json")
+.then(response => response.json())
+.then(data => {
+
+    orders = data;
+
+    showData();
+
+});
+
+
+function showData() {
+
+    let output = "";
+
+    for(let i = 0; i < orders.length; i++) {
+
+        output += `
+            <p>Order ID: ${orders[i].OrderID}</p>
+            <p>Customer: ${orders[i].CustomerName}</p>
+            <p>Product: ${orders[i].ProductName}</p>
+
+            <button onclick="editData(${i})">
+                Edit
+            </button>
+
+            <button onclick="deleteData(${i})">
+                Delete
+            </button>
+
+            <hr>
+        `;
+    }
+
+    document.getElementById("data").innerHTML = output;
+}
+
+
+function editData(index) {
+
+    let name = prompt(
+        "Enter customer name:",
+        orders[index].CustomerName
+    );
+
+    if(name != null) {
+
+        orders[index].CustomerName = name;
+
+        localStorage.setItem(
+            "orders",
+            JSON.stringify(orders)
+        );
+
+        showData();
+    }
+}
+
+
+function deleteData(index) {
+
+    orders.splice(index, 1);
+
+    localStorage.setItem(
+        "orders",
+        JSON.stringify(orders)
+    );
+
+    showData();
+}
+
+</script>
+
+</body>
+</html>

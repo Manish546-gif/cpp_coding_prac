@@ -1,0 +1,82 @@
+- generic [ref=f3e2]:
+  - complementary [ref=f3e3]:
+    - generic [ref=f3e4]: neuralnets
+    - paragraph [ref=f3e67]: cs student & ml researcher
+    - navigation "primary" [ref=f3e70]:
+      - list [ref=f3e71]:
+        - listitem [ref=f3e72]:
+          - link "about" [ref=f3e73] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=f3e80]:
+          - link "experience" [ref=f3e81] [cursor=pointer]:
+            - /url: "#experience"
+        - listitem [ref=f3e88]:
+          - link "projects" [ref=f3e89] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=f3e96]:
+          - link "papers" [ref=f3e97] [cursor=pointer]:
+            - /url: "#papers"
+        - listitem [ref=f3e104]:
+          - link "blogs" [ref=f3e105] [cursor=pointer]:
+            - /url: "#blogs"
+        - listitem [ref=f3e112]:
+          - link "notes" [ref=f3e113] [cursor=pointer]:
+            - /url: "#notes"
+    - generic [ref=f3e120]:
+      - generic [ref=f3e121]: dark mode
+      - switch "toggle dark mode" [ref=f3e122] [cursor=pointer]
+    - generic [ref=f3e126]:
+      - link "github" [ref=f3e127] [cursor=pointer]:
+        - /url: "#"
+      - link "x / twitter" [ref=f3e130] [cursor=pointer]:
+        - /url: "#"
+      - link "email" [ref=f3e133] [cursor=pointer]:
+        - /url: mailto:hello@neuralnets.dev
+    - paragraph [ref=f3e136]: © 2025 neuralnets
+  - main [ref=f3e137]:
+    - generic [ref=f3e138]:
+      - generic [ref=f3e139]:
+        - heading "about me" [level=2] [ref=f3e141]
+        - generic [ref=f3e146]:
+          - paragraph [ref=f3e147]: hi, i'm a cs student & ml researcher stitching together language models, one attention head at a time. these days you'll find me training LLMs, unpicking post-training pipelines, and translating the world into vectors.
+          - paragraph [ref=f3e148]: when the GPUs cool down, i teach, mentor, and write down everything i've unpicked — mostly for future me.
+        - list [ref=f3e149]:
+          - listitem [ref=f3e150]:
+            - generic [ref=f3e151]: nlp
+          - listitem [ref=f3e154]:
+            - generic [ref=f3e155]: llm post-training
+          - listitem [ref=f3e158]:
+            - generic [ref=f3e159]: machine translation
+          - listitem [ref=f3e162]:
+            - generic [ref=f3e163]: teaching
+      - generic [ref=f3e166]:
+        - heading "random blogs" [level=2] [ref=f3e168]
+        - generic [ref=f3e173]:
+          - paragraph [ref=f3e174]: misc musings on ml research, grad school, and life as a student who talks to models for a living.
+          - paragraph [ref=f3e175]: long-form thoughts, shorter takes, and the occasional bug report that reads like poetry.
+        - figure "first post is on the hoop — cross-stitched with extra care." [ref=f3e176]
+      - generic [ref=f3e184]:
+        - heading "experience" [level=2] [ref=f3e186]
+        - generic [ref=f3e191]:
+          - article [ref=f3e192]:
+            - generic [ref=f3e194]:
+              - generic [ref=f3e195]:
+                - heading "sde intern" [level=3] [ref=f3e196]
+                - generic [ref=f3e197]: cisco
+                - generic [ref=f3e198]: live · 3 months, 12 days, 10 hours, 46 mins, 53 secs
+              - generic [ref=f3e201]: may 2026 – present
+          - article [ref=f3e205]:
+            - generic [ref=f3e207]:
+              - generic [ref=f3e208]:
+                - heading "intern" [level=3] [ref=f3e209]
+                - generic [ref=f3e210]: sidhbant
+              - generic [ref=f3e211]: jan 2025 – apr 2026
+      - generic [ref=f3e215]:
+        - heading "projects" [level=2] [ref=f3e217]
+        - figure "machine-translation engines, retrieval pipelines & odd side quests — patterns are on the hoop." [ref=f3e222]
+      - generic [ref=f3e228]:
+        - heading "papers" [level=2] [ref=f3e230]
+        - figure "a couple of preprints, unpicked and being re-stitched for submission." [ref=f3e235]
+      - generic [ref=f3e243]:
+        - heading "notes" [level=2] [ref=f3e245]
+        - figure "scattered class notes, cheatsheets & tiny scripts — a drawer of loose threads." [ref=f3e250]

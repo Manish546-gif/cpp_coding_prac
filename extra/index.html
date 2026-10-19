@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form id="registrationForm">
+
+        <label>Full Name:</label>
+        <input type="text" id="name">
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email">
+
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" id="age">
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="Male">
+        Male
+
+        <input type="radio" name="gender" value="Female">
+        Female
+
+        <br><br>
+
+        <label>Course:</label>
+
+        <select id="course">
+            <option value="">Select Course</option>
+            <option value="CSE">Computer Science</option>
+            <option value="IT">Information Technology</option>
+            <option value="ECE">Electronics</option>
+        </select>
+
+        <br><br>
+
+        <label>Skills:</label>
+
+        <input type="checkbox" name="skills" value="HTML">
+        HTML
+
+        <input type="checkbox" name="skills" value="CSS">
+        CSS
+
+        <input type="checkbox" name="skills" value="JavaScript">
+        JavaScript
+
+        <br><br>
+
+        <label>Address:</label>
+
+        <br>
+
+        <textarea id="address" rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" id="dob">
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <p class="show"></p>
+
+
+    <script>
+
+        $(document).ready(function() {
+
+            $('#registrationForm').submit(function(event) {
+
+                // Stop form from refreshing the page
+                event.preventDefault();
+
+                var name = $('#name').val();
+                var email = $('#email').val();
+                var password = $('#password').val();
+                var age = $('#age').val();
+
+                var gender = $('input[name="gender"]:checked').val();
+
+                var course = $('#course').val();
+
+                var skills = [];
+
+                $('input[name="skills"]:checked').each(function() {
+                    skills.push($(this).val());
+                });
+
+                var address = $('#address').val();
+                var dob = $('#dob').val();
+
+                var result = "Name: " + name + "<br>" +
+                    "Email: " + email + "<br>" +
+                    "Password: " + password + "<br>" +
+                    "Age: " + age + "<br>" +
+                    "Gender: " + gender + "<br>" +
+                    "Course: " + course + "<br>" +
+                    "Skills: " + skills.join(", ") + "<br>" +
+                    "Address: " + address + "<br>" +
+                    "Date of Birth: " + dob;
+
+                $('.show').html(result);
+
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>

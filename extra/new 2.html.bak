@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student SGPA Form</title>
+</head>
+
+<body>
+
+<h2>Student SGPA Information Form</h2>
+
+<form>
+
+Student Name :
+<input type="text" name="name"><br><br>
+
+Roll Number :
+<input type="text" name="roll"><br><br>
+
+Branch :
+<select name="branch">
+    <option>CSE</option>
+    <option>IT</option>
+    <option>ECE</option>
+    <option>EE</option>
+    <option>ME</option>
+    <option>CE</option>
+</select>
+<br><br>
+
+Semester :
+<select name="semester">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+</select>
+<br><br>
+
+Section :
+<input type="text" name="section"><br><br>
+
+SGPA :
+<input type="number" name="sgpa" step="0.01" min="0" max="10"><br><br>
+
+CGPA :
+<input type="number" name="cgpa" step="0.01" min="0" max="10"><br><br>
+
+Email :
+<input type="email" name="email"><br><br>
+
+Phone Number :
+<input type="tel" name="phone"><br><br>
+
+Gender :
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+<br><br>
+
+Subjects Cleared :
+<input type="checkbox"> All
+<input type="checkbox"> Backlog
+<br><br>
+
+Remarks :<br>
+<textarea rows="5" cols="30"></textarea>
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
